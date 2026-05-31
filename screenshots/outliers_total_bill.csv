@@ -1,0 +1,10 @@
+total_bill,tip,sex,smoker,day,time,size
+48.27,6.73,Male,No,Sat,Dinner,4
+44.3,2.5,Female,Yes,Sat,Dinner,3
+41.19,5.0,Male,No,Thur,Lunch,5
+48.17,5.0,Male,No,Sun,Dinner,6
+50.81,10.0,Male,Yes,Sat,Dinner,3
+45.35,3.5,Male,Yes,Sun,Dinner,3
+40.55,3.0,Male,Yes,Sun,Dinner,2
+43.11,5.0,Female,Yes,Thur,Lunch,4
+48.33,9.0,Male,No,Sat,Dinner,4

@@ -1,0 +1,15 @@
+<class 'pandas.DataFrame'>
+RangeIndex: 244 entries, 0 to 243
+Data columns (total 8 columns):
+ #   Column          Non-Null Count  Dtype   
+---  ------          --------------  -----   
+ 0   total_bill      244 non-null    float64 
+ 1   tip             244 non-null    float64 
+ 2   sex             244 non-null    category
+ 3   smoker          244 non-null    category
+ 4   day             244 non-null    category
+ 5   time            244 non-null    category
+ 6   size            244 non-null    int64   
+ 7   total_bill_cat  244 non-null    category
+dtypes: category(5), float64(2), int64(1)
+memory usage: 7.7 KB
