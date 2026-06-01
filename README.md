@@ -3,6 +3,22 @@ MSCS 634 — Lab 1
 Purpose
 - Demonstrates data visualization, preprocessing, and statistical analysis on the `tips` dataset and saves artifacts required for submission.
 
+Lab summary
+- This lab uses the `tips` dataset in Python and Jupyter Notebook to explore data quality, visualize relationships, preprocess the dataset, and compute descriptive statistics.
+- The workflow includes loading the dataset, generating scatter, histogram, and box plot visualizations, handling missing values, detecting and removing outliers, reducing and scaling data, and computing summary statistics and correlations.
+
+Key insights
+- Visualizations showed a positive relationship between `total_bill` and `tip`, and highlighted how tip values vary by day and time of day.
+- Missing values were handled using mean imputation for numerical fields in the demo dataset, which preserved the dataset size while restoring completeness.
+- Outlier detection using IQR for `total_bill` identified extreme values that could skew analysis, and removing those cases produced a more representative dataset.
+- Data reduction and scaling made the dataset simpler and ensured numerical fields were comparable for later analysis.
+- Statistical summaries confirmed central tendency, dispersion, and correlation patterns, providing a solid basis for further modeling or decision-making.
+
+Challenges and decisions
+- Choosing how to handle missing values was important: the lab demonstrates mean imputation for numerical features because it is a simple, reproducible method that preserves dataset structure.
+- Identifying outliers required using the IQR method, which balances robust detection with minimal removal of valid observations.
+- Reducing the dataset involved sampling rows and dropping non-essential columns to keep the analysis focused and computationally efficient.
+
 Repository contents (generated/expected)
 - `MSCS_634_Lab_1.ipynb` — Jupyter Notebook implementing all lab steps.
 - `run_lab.py` — Headless runner that reproduces the notebook steps and saves outputs.
@@ -56,7 +72,3 @@ git commit -m "Add lab notebook, runner, dataset, and screenshots"
 git remote add origin <your-repo-url>
 git push -u origin main
 ```
-
-Notes
-- Replace `[Your Name]` in the notebook top cell with your full name before submission.
-- If you prefer a different dataset, update the loading cell or `run_lab.py` and commit the dataset CSV to `data/`.
